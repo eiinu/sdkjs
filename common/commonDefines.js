@@ -4196,9 +4196,9 @@ window.AscCommon.g_cIsBeta = "false";
 	c_oAscDateTimeFormat[lcid_jaJP]     = [
 		"yyyy/MM/dd",
 		"yyyy年M月d日",
-		"yyyy年M月d日(JDDD)",
+		"yyyy年M月d日(DDD)",
 		"yyyy年M月",
-		"JYYYY年JM月JD日(JDDD)",
+		"YYYY年M月D日(DDD)",
 		"yyyy/M/d",
 		"yy/M/d H時m分",
 		"yy/M/d H時m分s秒",
@@ -4570,14 +4570,14 @@ window.AscCommon.g_cIsBeta = "false";
 	c_oAscDateTimeFormat[lcid_zhCN]     = c_oAscDateTimeFormat[lcid_zhTW] = [
 		"yyyy/M/d",
 		"yyyy'年'M'月'd'日'",
-		"yyyy年M月d日星期W",
+		"yyyy年M月d日DDDD",
 		"yy.M.d",
 		"yyyy年M月",
 		"h时m分s秒",
 		"h时m分",
 		"AM/PMh时m分",
 		"YYYY年M月d日",
-		"YYYY年M月d日星期W",
+		"YYYY年M月d日DDDD",
 		"YYYY年M月"
 	];
 	c_oAscDateTimeFormat[lcid_enUS]     = [
